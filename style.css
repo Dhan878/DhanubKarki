@@ -1,0 +1,90 @@
+
+body{margin: 0;
+background-color: lavender;}
+
+header{ 
+background-color: purple;
+color: white;
+padding: 20px;
+text-align: center;
+}
+nav{
+	overflow: hidden;
+	background-color: black;
+}
+nav a{
+	float: left;
+	color: white;
+	padding: 14px 12px 11px 10px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: silver;
+	color: white;
+}
+h1{background-color: purple;
+color: white;
+padding: 10px;
+text-align: center;
+
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 25%;
+}
+.column.middle{
+	width: 40%;
+}
+@media screen and (max-width: 612px){
+	.column.side,.column.middle{
+	width: 100%;
+}
+
+}
+
+p{
+	text-align: justify;
+	
+}
+footer{
+	clear: both;
+	background-color: purple;
+color: white;
+padding: 1px;
+text-align: center;
+}
+div.gallery{
+	margin: 5px;
+	border: 3px solid white;
+	float: left;
+	width: 200px;
+
+}
+
+div.gallery:hover{
+	border: 3px solid black;
+}
+div.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid black;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: none;
+	margin: 2px;
+}
